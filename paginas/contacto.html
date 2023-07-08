@@ -1,116 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
-    <title>Contáctanos</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> 
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         
-    <header> 
-
-        <img src="../assets/img/logo graficas artefull.png" alt="logo" id="logo_af">
-    <nav>
+        <title>Contáctanos</title>
+    </head>
+    <body>
+            
+        <header class="container-fluid header_banner"> 
+            <div class="row h-100 " >
+                <div class="col-2 "> 
+                    <div class="d-flex h-100 align-items-center">
+                        <img src="../assets/img/logo graficas artefull.png" class="img-fluid" alt="logo Arte Full" id="logo_af"></div>
         
-       
-        <ul>
-            <li id="inicio_boton">
-                <a href="../index.html"> 
-                    <img src="../assets/img/iconos menu/iconosmenu-01.png" alt="ic" > Inicio</a>
+                    </div>
+                   
+           
+        
+                <nav class=" col-10 ">
+            
+                <ul class="d-sm-flex h-100 justify-content-end align-items-end list-unstyled ">
+                <li class="bg-body p-2 ms-2">
+                    <a href="../index.html" class="text-decoration-none text-black"> 
+                        <img src="../assets/img/iconos menu/iconosmenu-01.png" alt="ic" > Inicio</a>
+                    </li>
+                <li class="bg-body p-2 ms-2">
+                    <a href="./paginas/laser.html" class="text-decoration-none text-black"> 
+                        <img src="../assets/img/iconos menu/iconosmenu-02.png" alt="ic"> Laser</a>
                 </li>
-            <li>
-                <a href="../paginas/laser.html"> 
-                    <img src="../assets/img/iconos menu/iconosmenu-02.png" alt="ic"> Laser</a>
-            </li>
-            <li><a href="../paginas/plotter.html"> 
-                <img src="../assets/img/iconos menu/iconosmenu-03.png" alt="ic"> Plotter</a></li>
-            <li><a href="../paginas/otros.html"> 
-                <img src="../assets/img/iconos menu/iconosmenu-04.png" alt="ic"> Otros</a></li>
-            <li><a href="../paginas/contacto.html"> 
-                <img src="../assets/img/iconos menu/iconosmenu-05.png" alt="ic"> Contacto</a></li>
-        </ul>
-       
-    </nav>
-    
-    </header>
-    
-    <main>
-        <div>
-    
-            <p>¡Cotiza con nosotros!</p>
-        </div>
-    <!-- ------------------------------------------------------------------------------ -->
-        <div id="form_cotiza">
-       <div>
-        <form action="" method="post">
-            <label for="nombre">¿Con quien tengo el gusto?</label> 
-            <input type="text" id="nombre" placeholder="Nombre y Apellido">
-            <input type="email" name="" id="correo" placeholder="Correo Electrónico">
-       </div>     
-       
-       <div>
-        <label for="mensaje">¿en que te podemos ayudar?</label>
-         <textarea name="" id="mensaje" cols="45" rows="5" placeholder="por favor indicar material, medidas y cantidades."></textarea>
-       
-       </div>
-       
-       <div> 
-        <label for="diseño">En caso de tener diseño listo adjuntarlo</label>
-        <input type="file" name="" id="diseño"></div>
-       <div>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar">
-    </div>
-       
-       
-
+                <li class="bg-body p-2 ms-2"><a href="./paginas/plotter.html" class="text-decoration-none text-black"> 
+                    <img src="../assets/img/iconos menu/iconosmenu-03.png" alt="ic"> Plotter</a></li>
+                <li class="bg-body p-2 ms-2"><a href="./paginas/otros.html" class="text-decoration-none text-black"> 
+                    <img src="../assets/img/iconos menu/iconosmenu-04.png" alt="ic"> Otros</a></li>
+                <li class="bg-body p-2 ms-2"><a href="./contacto.html" class="text-decoration-none text-black"> 
+                    <img src="../assets/img/iconos menu/iconosmenu-05.png"  class="text-decoration-none"alt="ic"> Contacto</a></li>
+                </ul>
         
-         </form>
-       
-         
-       
+                </nav>
         </div>
-         
+        </header>
         
+        <main  class="container-fluid main_banner  ">
+            <div class="row">
+                <div class="col-12  bg-body">
+                  <p class="fs-3 text-center titulos">¡Cotiza con nosotros!</p> 
+                </div>
         <!-- ------------------------------------------------------------------------------ -->
-
-    <div id="datos_contacto">
-
-        <span >
-            <img src="../assets/img/imagenes productos/5a4525cd546ddca7e1fcbc84.png" alt=""  width="25px" height="25px">
-            <p class="datoscontacto"> 
-               
-                
-                     2277979790</p>
-        </span>
-        <span>
-            <img src="../assets/img/imagenes productos/1334313.png" 
-            alt=""  width="25px" height="25px">
-            <p class="datoscontacto"> 
-                
-                artefullimprentalaser@gmail.com </p>
-        </span>
-        <span>
-            <p class="datoscontacto"> 
-                
-                <img src="../assets/img/imagenes productos/pin_gps_location_find_map_search_icon-icons.com_59982.png"
-                 alt="" width="25px" height="25px"> 
-                Tarapacá 927, Santiago Centro, Chile</p>
-        </span>
-    </div>
-
+                <div class="d-flex align-items-center justify-content-center">
+        <div class="card text-bg-warning mb-3 m-2" style="width: 60rem;max-height: 100rem;">
+            <div class="card-header montserrat text-center">Haz tu orden Aqui</div>
+            <div class="card-body ">
+                <div class="montserrat text-center d-flex">
+                <input class="form-control montserrat  m-2" type="text" placeholder="Nombre y Apellido" aria-label="default input example">
+                <input class="form-control form-control-sm  m-2 montserrat "  type="text" placeholder="correo@email.com" aria-label=".form-control-sm example">
+            </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Detallar pedido, indicar medidas y cantidades" rows="3"></textarea>
+                  </div>
+             <div class="mb-3 montserrat text-center d-flex justify-content-center">
+                <label for="formFileSm" class="form-label fs-6 m-2">Si tiene diseño listo, enviarlo</label> 
+                <input class="form-control form-control-sm " style="width: 25rem;" id="formFileSm" type="file">
+              </div>
+              <div class="mb-3 montserrat text-center d-flex justify-content-end">
+                    <button type="button" class="btn btn-light  m-2">Enviar</button>
+                    <button type="button" class="btn btn-dark  m-2">Limpiar</button>
+                </div>
+            </div>
+        </div>
+            
+          
+          
+        </div>
     
-    </main>
-    <footer>
+        
+        </main>
+        <footer class="container-fluid ">
+        
+          <div class="row ">
+                <div class="col-4 d-flex justify-content-center align-items-center ">
+                    <img src="../assets/img/imagenes productos/5a4525cd546ddca7e1fcbc84.png" height="15vh" width="15vw"  >
+                    <p class="m-2">  2277979790</p>
+                </div>
+                <div class="col-4 d-flex justify-content-center align-items-center"> 
+                    <img src="../assets/img/imagenes productos/1334313.png" alt=""  width="20vw" height="20vh">
+                    <p class="m-2"> artefullimprentalaser@gmail.com </p>
+                </div>
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <img src="../assets/img/imagenes productos/pin_gps_location_find_map_search_icon-icons.com_59982.png"alt="" width="15vw" height="15vh"> 
+                    <p class="m-2">  Tarapacá 927, Santiago Centro, Chile</p>
+                    </div>
     
-        <img src="../assets/img/footer.png" alt="Footer" width="100%">
-        </footer>
-    
-</body>
+                    
+                        
+                </div>
+          
+        </div>
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
 </html>
