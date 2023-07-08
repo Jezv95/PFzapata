@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+ 
+/* Header */
+
+header{
+    font-size: 0;
+    background-image: url(../assets/img/logo\ artefullai-03.png);
+    background-size: cover;
+
+    height: 12vh;
+    width: 100%;
+
+
+}
+
+
+
+#logo_af{
+    font-size: 1rem;
+   display: inline-block;
+    width: 15%;
+    margin: 5px;
+   vertical-align: middle;
+  
+}
+
+header nav{
+display: inline-block;
+ 
+    width: 80%;
+    height: 43px;
+    text-align: end;
+    vertical-align: bottom;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    background-color: #cacaca;
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 5px;
+    
+
+   
+
+}
+
+
+
+header nav ul li a{
+    display: inline-block;
+    text-decoration:none;
+    color: black;
+    font-family: montserrat;
+    font-size: 1rem;
+    list-style-type: none;
+    text-align: center;
+    vertical-align: middle;
+    
+    
+   
+}
+
+   
+
+/* Main page */
+
+body{
+    background-image:url(../assets/img/logo\ artefullai-04.png);
+    background-size: cover;
+    background-repeat: repeat;
+    align-items:center;
+   
+    
+
+
+}
+
+main p {
+
+    background-color: white;
+    font-family: Montserrat;
+    font-size: 25pt;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-align: center;
+    padding: 20px;
+}
+
+#imagenartefull{
+background-image: url(../assets/img/logo\ artefullai-01.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+overflow: hidden;
+    height: 33vh;
+}
+
+#quien_somos{
+
+   
+    width: 100%;
+    height: 34vh;
+    position:relative;
+    /* top: 40vh; */
+}
+
+#quien_somos h1 {
+    font-family: Montserrat;
+    color: white;
+    font-size: 35pt;
+    font-weight: bold;
+    letter-spacing: 15px;
+    text-align: center;   
+    padding: 30px; 
+}
+
+#quien_somos h2 {
+    font-family: Montserrat ;
+    color: white;
+    font-size: 2rem;
+    font-weight:400;
+    font-style: italic;
+    text-align: center; 
+    margin-bottom: 3%;   
+}
+
+
+
+
+
+    /* Laser */
+
+    .cajaproductolaser{
+   
+        display: inline-block;
+        background-color: white;
+        height: 400px;
+        width: 350px;
+        margin: 15px;
+        overflow: hidden;
+        position: relative;
+        left: 6%;
+        
+        }
+
+    main aside {
+        display: inline-block;
+
+        vertical-align: middle;
+
+    }
+    
+
+    
+    main aside div span{
+        display:block;
+        padding: 10px;
+        /* margin-top: 5%;
+        margin-bottom: 5%; */
+        background-color: white;
+
+        font-family: montserrat;
+        font-weight: bold;
+        font-size: 1rem;
+        text-align: center;
+     
+    }
+
+    /* Plotter */
+
+    .cajaproductoplotter{
+   
+        display: inline-block;
+        background-color: white;
+        height: 210px;
+        width: 215px;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        left: 4%;
+       
+        
+        }
+
+    /* Otros */
+    .cajaproductootros{
+   
+        display: inline-block;
+        background-color: white;
+        height: 195px;
+        width: 300px;
+        margin: 15px;
+        overflow: hidden;
+        position: relative;
+        left: 12%;
+        
+        }
+
+        /* Contacto */
+
+        #form_cotiza{
+
+            display: inline-block;
+        background-color:yellow;
+        height: 50vh;
+        width: 40vw;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        left: 28%;
+        }
+
+        #form_cotiza {
+
+          font-family: Montserrat;
+          font-size: 1rem;
+          font-weight: 500;
+          text-align: center;
+          padding: 10px;
+        }
+
+        #form_cotiza div{
+
+            
+            padding: 3px;
+            margin: 2px;
+        }
+
+        #form_cotiza div label{
+            display: block;
+            
+            padding: 5px;
+            margin: 2px;
+        }
+
+        #form_cotiza div input{
+            display:inline-block;
+            
+            padding: 5px;
+            margin: 2px;
+        }
+
+        #datos_contacto{
+
+        display: inline-block;
+        background-color: rgb(255, 204, 0);
+        height: 109px;
+        width: 100%;
+        text-align: center;
+        vertical-align: bottom;
+        
+    
+        overflow: hidden;
+       
+        }
+
+        .datoscontacto{
+            display: inline-block;
+            background-color:rgb(255, 204, 0);
+            letter-spacing: 0;
+            font-family: montserrat;
+            font-size: 9pt;
+
+        }
+
+        .datoscontactoiconos{
+            display: inline-block;
+            background-color:rgb(255, 204, 0);
+            letter-spacing: 0;
+            font-family: montserrat;
+            font-size: 9pt;
+
+        }
+      
+    /* Footer */
+
+footer{
+    background-color: rgb(238, 255, 0);
+    height: 5%;
+   
+}
