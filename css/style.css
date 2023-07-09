@@ -8,7 +8,7 @@ body{
     height: 100vh;
 }
  
-header{
+/* header{
     height: 15vh;
 }
 
@@ -17,8 +17,9 @@ main{
     
 }
 
-footer{
-    height: 7%;
+ */
+ footer{
+    height: 7vh;
 }
 
 .header_banner{
@@ -41,6 +42,14 @@ footer{
     background-position: center;
     overflow: hidden;
         height: 40vh;
+    }
+
+    #logoartefull{
+        background-image: url(../assets/img/logo\ graficas\ artefull.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
     }
 
     .titulos {
