@@ -1,0 +1,23 @@
+.font-style{
+    font-family: $font-family;
+    font-style: italic;
+    font-weight: bold;
+    color: $tx-black;
+    text-decoration: none;
+    text-align: center
+}
+
+.font-style--small{
+    @extend .font-style;
+    font-size: $small-font;
+}
+
+.font-style--medium{
+    @extend .font-style;
+    font-size: $medium-font;
+}
+
+.font-style--title{
+    @extend .font-style;
+    font-size: $title-font;
+}

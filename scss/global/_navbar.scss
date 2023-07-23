@@ -1,0 +1,18 @@
+.container--nav{
+    @include conatiner-justify(end,end ,100% )
+}
+
+
+
+nav ul{
+
+    list-style: none;
+        li {
+            @include box-spacing(null,center ,center ,20px,10px,50%,$bg-white );
+            &:hover{
+                background-color: $bg-yelow;
+            }
+           
+            
+        }
+}

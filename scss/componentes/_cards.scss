@@ -1,0 +1,18 @@
+.card-spaceing{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-spaceing--text{
+@extend .card-spaceing;
+    color: $tx-black;
+}
+
+.card-spaceing--btn{
+    @extend .card-spaceing;
+        background-color: yellow;
+    }
+

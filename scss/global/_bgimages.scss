@@ -1,0 +1,21 @@
+.header_banner{
+    background-image: url(../assets/img/fondo_header.png);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.main_banner{
+    background-image: url(../assets/img/banner_main.png);
+    background-size:cover;
+    background-repeat: repeat;
+
+}
+
+#imagenartefull{
+    background-image: url(../assets/img/logo_inicio_AF.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+        height:48vh;
+    }

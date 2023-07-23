@@ -1,0 +1,22 @@
+@mixin box-spacing ($direction,$justify,$align,$padding, $margin,$height,$bgcolor){
+        display: flex;
+        flex-direction: $direction;
+        justify-content: $justify;
+        align-items: $align;
+        padding: $padding;
+        margin-right: $margin;
+        height: $height;
+        background-color:$bgcolor;
+     
+}
+
+
+
+@mixin conatiner-justify ($justify,$align,$height,){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    height: $height;
+   
+}
+
